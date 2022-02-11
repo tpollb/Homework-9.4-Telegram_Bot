@@ -22,7 +22,7 @@ namespace Homework_9._4_Telegram_Bot
         public static string Filepath { get => filepath; set => filepath = value; }
 
         public const string menuItem1 = "Вывести курсы на экран";
-        public const string menuItem2 = "Получить HTML файл курсов";
+        public const string menuItem2 = "Получить json файл курсов";
         public const string menuItem3 = "кнопка";
         public const string menuItem4 = "кнопка";
 
