@@ -9,7 +9,7 @@ namespace Homework_9._4_Telegram_Bot
 {
     internal class Globals
     {
-        private static string token = "5111316639:AAGaZX4XBh8ZeyZwEoBRdomqZOffAdV8WQM";
+        private static string token = "";
         public static string Token { get => token; set => token = value; }
 
         private static TelegramBotClient client;
@@ -23,8 +23,8 @@ namespace Homework_9._4_Telegram_Bot
 
         public const string menuItem1 = "Вывести курсы на экран";
         public const string menuItem2 = "Получить HTML файл курсов";
-        public const string menuItem3 = "Вывести курсы";
-        public const string menuItem4 = "Вывести курсы";
+        public const string menuItem3 = "кнопка";
+        public const string menuItem4 = "кнопка";
 
     }
 }

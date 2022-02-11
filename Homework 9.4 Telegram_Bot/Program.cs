@@ -8,6 +8,9 @@ namespace Homework_9._4_Telegram_Bot
         [Obsolete]
         static void Main(string[] args)
         {
+            Console.WriteLine("Введите токен");
+            Globals.Token = Console.ReadLine();
+
             Globals.Client = new TelegramBotClient(Globals.Token);
 
             Globals.Client.StartReceiving();
